@@ -5,7 +5,7 @@ import { useLoginMutation } from "../features/api/authApi";
 import { addUser } from "../features/services/authSlice";
 
 const Login = () => {
-  const [email, setEmail] = useState("minthiha26@gmail.com");
+  const [email, setEmail] = useState("minthiha@gmail.com");
   const [password, setPassword] = useState("asdffdsa");
   const [login] = useLoginMutation();
   const navigate = useNavigate();
